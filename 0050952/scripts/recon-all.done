@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT 0050952
+START_TIME Tue Sep 16 06:05:40 PM KST 2025
+END_TIME Wed Sep 17 01:32:50 AM KST 2025
+RUNTIME_HOURS 7.453
+USER xxxxx
+HOST xxxxxxxxx
+PROCESSOR x86_64
+OS Linux
+UNAME Linux xxxxxxxxx 6.8.0-79-generic #79~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 15 16:54:53 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+VERSION 7.4.1 (freesurfer-linux-ubuntu22_x86_64-7.4.1-20230614-7eb8460)
+CMDPATH /opt/software/freesurfer/bin/recon-all
+CMDARGS -subject 0050952 -sd . -i ../smri/0050952/session_1/anat_1/mprage.nii.gz -all -threads 1
