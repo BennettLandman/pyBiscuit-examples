@@ -60,6 +60,11 @@ license covers the data only. The pyBiscuit software is Apache-2.0.
 | `pdf/` | the five QA pages | image output |
 | `scripts/build-stamp.txt`, `scripts/recon-all.done` | FreeSurfer provenance | metadata |
 
+Redacted: the FreeSurfer username and hostname of the original run were
+replaced with same-length placeholders (`xxxxx`, `xxxxxxxxx`) in the surface
+headers and tags and in `scripts/recon-all.done`. Geometry is unchanged, and
+`MANIFEST.sha256` lists the redacted files.
+
 Not included: FreeSurfer volumes (`mri/`), other FreeSurfer surfaces, labels
 and stats, and BISCUIT intermediates (the run kept none; `tmp/` was empty).
 
